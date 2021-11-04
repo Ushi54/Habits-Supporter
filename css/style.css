@@ -53,15 +53,6 @@ h1 {
   font-size: 19px;
 }
 
-.loginbox input[type="text"],
-.loginbox input[type="password"] {
-  border: none;
-  border-bottom: 1px solid;
-  height: 40px;
-  outline: none;
-  font-size: 19px;
-}
-
 .loginbox input[type="submit"] {
   border: 1px solid;
   outline: none;
