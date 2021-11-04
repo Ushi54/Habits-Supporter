@@ -111,7 +111,7 @@ h1 {
   border: 1px solid #707070;
 }
 
-button:hover {
+.menu button:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: rgba(0, 0, 0, 0.1);
@@ -139,6 +139,27 @@ button:hover {
 /*
 training
 */
+.header {
+  width: 1228px;
+  margin: 0 auto;
+}
+
+.header a {
+  border: solid 1px;
+  width: 274px;
+  height: 64px;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  position: relative;
+  top: 66px;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
 .training_menu {
   width: 1228px;
   margin: 0 auto;
@@ -160,9 +181,6 @@ training
   clear: both;
 }
 
-/*
-2,4個目のボタンの右マージンをゼロに。
-*/
 .training_menu button:nth-child(2n) {
   margin-right: 0;
 }
