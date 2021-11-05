@@ -87,7 +87,7 @@ h1 {
   padding: 0;
 
   h1 {
-    margin: 110px 0 84px 0;
+    margin: 110px 0 63px 0;
     padding: 0;
     font-size: 40px;
   }
@@ -145,7 +145,7 @@ training
 
 .header {
   width: 1228px;
-  margin: 0 auto;
+  margin: 110px auto 0 auto;
 
   a {
     border: solid 1px;
@@ -155,8 +155,6 @@ training
     text-align: center;
     font-size: 40px;
     text-decoration: none;
-    position: relative;
-    top: 66px;
 
     &:hover {
       transition: 0.5s;
@@ -199,5 +197,31 @@ training
       transition: 0.5s;
       background-color: rgba(0, 0, 0, 0.1);
     }
+  }
+}
+
+.dummy{
+  float: right;
+  width: 274px;
+  height: 64px;
+  display: block;
+}
+
+//trainingの各ページ
+.top_btn{
+  float: left;
+}
+
+.back_btn{
+  float: right;
+}
+
+.main{
+  width: 1228px;
+  margin: 0 auto;
+
+  iframe{
+    width: 1228px;
+    height: 691px;
   }
 }
