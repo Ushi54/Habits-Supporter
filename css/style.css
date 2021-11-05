@@ -99,7 +99,8 @@ h1 {
 }
 
 .menu {
-  margin: 0 0 0 311px;
+  margin: 0 auto;
+  width: 1300px;
 }
 
 .menu button {
@@ -136,6 +137,10 @@ h1 {
   margin: 0 180px 82px 0;
 }
 
+.category:nth-child(3n) {
+  margin-right: 0;
+}
+
 /*
 training
 */
@@ -154,6 +159,12 @@ training
   text-decoration: none;
   position: relative;
   top: 66px;
+}
+
+.header a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .header h1 {
@@ -187,5 +198,11 @@ training
 
 .training_menu button img {
   display: block;
+}
+
+.training_menu button:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 /*# sourceMappingURL=style.css.map */
