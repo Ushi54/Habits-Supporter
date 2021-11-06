@@ -170,12 +170,12 @@ training
   font-size: 40px;
 }
 
-.training_menu {
+.training_menu, .meditation_menu {
   width: 1228px;
   margin: 0 auto;
 }
 
-.training_menu button {
+.training_menu button, .meditation_menu button {
   float: left;
   margin: 0 112px 84px 0;
   padding: 0;
@@ -187,19 +187,19 @@ training
   border: 1px solid #707070;
 }
 
-.training_menu button:nth-child(3) {
+.training_menu button:nth-child(3), .meditation_menu button:nth-child(3) {
   clear: both;
 }
 
-.training_menu button:nth-child(2n) {
+.training_menu button:nth-child(2n), .meditation_menu button:nth-child(2n) {
   margin-right: 0;
 }
 
-.training_menu button img {
+.training_menu button img, .meditation_menu button img {
   display: block;
 }
 
-.training_menu button:hover {
+.training_menu button:hover, .meditation_menu button:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: rgba(0, 0, 0, 0.1);
@@ -228,5 +228,13 @@ training
 .main iframe {
   width: 1228px;
   height: 691px;
+}
+
+.meditation_menu .m_20min_btn {
+  margin-right: 0;
+  left: 50%;
+  position: relative;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 /*# sourceMappingURL=style.css.map */

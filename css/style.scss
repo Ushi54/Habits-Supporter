@@ -168,7 +168,7 @@ training
   }
 }
 
-.training_menu {
+.training_menu, .meditation_menu{
   width: 1228px;
   margin: 0 auto;
 
@@ -224,5 +224,16 @@ training
   iframe{
     width: 1228px;
     height: 691px;
+  }
+}
+
+//meditation
+
+.meditation_menu{
+  .m_20min_btn{
+    margin-right:0;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
   }
 }
