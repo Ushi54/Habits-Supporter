@@ -63,6 +63,8 @@ h1 {
   margin: 96px 0 0 0;
   padding: 0;
   font-weight: 100;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .loginbox input[type="submit"]:hover {
@@ -110,6 +112,8 @@ h1 {
           box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
   background-color: #fff;
   border: 1px solid #707070;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .menu button:hover {
@@ -158,6 +162,8 @@ training
   text-align: center;
   font-size: 40px;
   text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header a:hover {
@@ -170,12 +176,12 @@ training
   font-size: 40px;
 }
 
-.training_menu, .meditation_menu {
+.training_menu, .meditation_menu, .yoga_menu {
   width: 1228px;
   margin: 0 auto;
 }
 
-.training_menu button, .meditation_menu button {
+.training_menu button, .meditation_menu button, .yoga_menu button {
   float: left;
   margin: 0 112px 84px 0;
   padding: 0;
@@ -185,21 +191,23 @@ training
           box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
   background-color: #fff;
   border: 1px solid #707070;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.training_menu button:nth-child(3), .meditation_menu button:nth-child(3) {
+.training_menu button:nth-child(3), .meditation_menu button:nth-child(3), .yoga_menu button:nth-child(3) {
   clear: both;
 }
 
-.training_menu button:nth-child(2n), .meditation_menu button:nth-child(2n) {
+.training_menu button:nth-child(2n), .meditation_menu button:nth-child(2n), .yoga_menu button:nth-child(2n) {
   margin-right: 0;
 }
 
-.training_menu button img, .meditation_menu button img {
+.training_menu button img, .meditation_menu button img, .yoga_menu button img {
   display: block;
 }
 
-.training_menu button:hover, .meditation_menu button:hover {
+.training_menu button:hover, .meditation_menu button:hover, .yoga_menu button:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: rgba(0, 0, 0, 0.1);
