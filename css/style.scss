@@ -88,7 +88,7 @@ h1 {
   padding: 0;
 
   h1 {
-    margin: 110px 0 63px 0;
+    margin: 50px 0 63px 0;
     padding: 0;
     font-size: 40px;
   }
@@ -148,7 +148,7 @@ training
 .header {
   width: 1228px;
   height: 127px;
-  margin: 110px auto 0 auto;
+  margin: 50px auto 0 auto;
 
   a {
     border: solid 1px;
@@ -171,7 +171,7 @@ training
   }
 }
 
-.training_menu, .meditation_menu, .yoga_menu{
+.training_menu, .meditation_menu, .yoga_menu, .front_end_menu, .reading_container{
   width: 1228px;
   margin: 0 auto;
 
@@ -233,8 +233,8 @@ training
 
 //meditation
 
-.meditation_menu{
-  .m_20min_btn{
+.meditation_menu, .front_end_menu{
+  .m_20min_btn, .create_portfolio_btn{
     margin-right:0;
     left: 50%;
     position: relative;

@@ -19,6 +19,4 @@
 読書に関しては、To-Doリストの機能（追加、削除、検索、更新）を実装しています。
 
 ◆使用言語
-HTML,CSS,JavaScript,JQuery,PHP
-
-◆DB
+HTML,CSS,JavaScript,JQuery

@@ -90,7 +90,7 @@ h1 {
 }
 
 .top_wrapper h1 {
-  margin: 110px 0 63px 0;
+  margin: 50px 0 63px 0;
   padding: 0;
   font-size: 40px;
 }
@@ -151,7 +151,7 @@ training
 .header {
   width: 1228px;
   height: 127px;
-  margin: 110px auto 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 .header a {
@@ -176,12 +176,12 @@ training
   font-size: 40px;
 }
 
-.training_menu, .meditation_menu, .yoga_menu {
+.training_menu, .meditation_menu, .yoga_menu, .front_end_menu, .reading_container {
   width: 1228px;
   margin: 0 auto;
 }
 
-.training_menu button, .meditation_menu button, .yoga_menu button {
+.training_menu button, .meditation_menu button, .yoga_menu button, .front_end_menu button, .reading_container button {
   float: left;
   margin: 0 112px 84px 0;
   padding: 0;
@@ -195,19 +195,19 @@ training
   transition: 0.5s;
 }
 
-.training_menu button:nth-child(3), .meditation_menu button:nth-child(3), .yoga_menu button:nth-child(3) {
+.training_menu button:nth-child(3), .meditation_menu button:nth-child(3), .yoga_menu button:nth-child(3), .front_end_menu button:nth-child(3), .reading_container button:nth-child(3) {
   clear: both;
 }
 
-.training_menu button:nth-child(2n), .meditation_menu button:nth-child(2n), .yoga_menu button:nth-child(2n) {
+.training_menu button:nth-child(2n), .meditation_menu button:nth-child(2n), .yoga_menu button:nth-child(2n), .front_end_menu button:nth-child(2n), .reading_container button:nth-child(2n) {
   margin-right: 0;
 }
 
-.training_menu button img, .meditation_menu button img, .yoga_menu button img {
+.training_menu button img, .meditation_menu button img, .yoga_menu button img, .front_end_menu button img, .reading_container button img {
   display: block;
 }
 
-.training_menu button:hover, .meditation_menu button:hover, .yoga_menu button:hover {
+.training_menu button:hover, .meditation_menu button:hover, .yoga_menu button:hover, .front_end_menu button:hover, .reading_container button:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: rgba(0, 0, 0, 0.1);
@@ -238,7 +238,7 @@ training
   height: 691px;
 }
 
-.meditation_menu .m_20min_btn {
+.meditation_menu .m_20min_btn, .meditation_menu .create_portfolio_btn, .front_end_menu .m_20min_btn, .front_end_menu .create_portfolio_btn {
   margin-right: 0;
   left: 50%;
   position: relative;
