@@ -255,8 +255,9 @@ training
       font-size: 50px;
 
       &::before{
-        font-family: "Font Awesome";
-        content: '/f096';
+        font-family: "Font Awesome 5 Free";
+        content: "\f0c8";
+        margin-right: 0.5em;
       }
     }
   }
