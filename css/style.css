@@ -245,4 +245,29 @@ training
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
 }
+
+.reading_container {
+  width: 800px;
+}
+
+.reading_container p {
+  font-size: 30px;
+}
+
+.reading_container ul li {
+  list-style-type: none;
+  font-size: 50px;
+}
+
+.reading_container ul li::before {
+  font-family: "Font Awesome";
+  content: '/f096';
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #707070;
+  font-size: 40px;
+  width: 708px;
+}
 /*# sourceMappingURL=style.css.map */

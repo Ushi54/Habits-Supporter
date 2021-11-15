@@ -241,3 +241,30 @@ training
     transform: translate(-50%);
   }
 }
+
+//reading
+
+.reading_container{
+  width: 800px;
+  p{
+    font-size: 30px;
+  }
+  ul{
+    li{
+      list-style-type: none;
+      font-size: 50px;
+
+      &::before{
+        font-family: "Font Awesome";
+        content: '/f096';
+      }
+    }
+  }
+}
+
+.form-control{
+  border: none;
+  border-bottom: 1px solid #707070;
+  font-size: 40px;
+  width: 708px;
+}
