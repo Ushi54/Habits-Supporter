@@ -8,8 +8,23 @@ form.addEventListener("submit",function(event){
 });
 
 function add(){
+  let todoText = input.value;
+  if(todoText){
   const li = document.createElement("li");
-  li.innerText = $("input").val();
+  li.innerText = todoText;
+  li.classList.add("list-group-item");
   ul.appendChild(li);
-  $("input").val("");
+  input.value="";
+  saveData();
+  }
+}
+
+function saveData(){
+  const lists = document.querySelectorAll("li");
+  let todos = [];
+  lists.forEach(list => {
+    todos.push(list.innerHTML);
+  })
+  console.log(todos);
+
 }
