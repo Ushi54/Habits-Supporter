@@ -254,12 +254,12 @@ training
   font-size: 30px;
 }
 
-.reading_container ul li {
+.reading_container ul .list-group-item {
   list-style-type: none;
   font-size: 50px;
 }
 
-.reading_container ul li::before {
+.reading_container ul .list-group-item::before {
   font-family: "Font Awesome 5 Free";
   content: "\f0c8";
   margin-right: 0.5em;
