@@ -13,6 +13,7 @@ function add(){
   const li = document.createElement("li");
   li.innerText = todoText;
   li.classList.add("list-group-item");
+  li.classList.add("uncomp-style");
   ul.appendChild(li);
   input.value="";
   saveData();
@@ -28,3 +29,5 @@ function saveData(){
   console.log(todos);
 
 }
+
+console.log("test");

@@ -253,10 +253,18 @@ training
     .list-group-item{
       list-style-type: none;
       font-size: 50px;
-
+    }
+    .uncomp-style{
       &::before{
         font-family: "Font Awesome 5 Free";
         content: "\f0c8";
+        margin-right: 0.5em;
+      }
+    }
+    .comp-style{
+      &::before{
+        font-family: "Font Awesome 5 Free";
+        content: "\f046";
         margin-right: 0.5em;
       }
     }

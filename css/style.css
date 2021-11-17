@@ -259,9 +259,15 @@ training
   font-size: 50px;
 }
 
-.reading_container ul .list-group-item::before {
+.reading_container ul .uncomp-style::before {
   font-family: "Font Awesome 5 Free";
   content: "\f0c8";
+  margin-right: 0.5em;
+}
+
+.reading_container ul .comp-style::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f046";
   margin-right: 0.5em;
 }
 
