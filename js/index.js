@@ -1,10 +1,10 @@
-//id="form"を取得し、変数formに代入
+//id="form"を取得し、変数formに格納する
 const form = document.getElementById("form");
-//id="input"を取得し、変数inputに代入
+//id="input"を取得し、変数inputに格納する
 const input = document.getElementById("input");
-//id="ul"を取得し、変数ulに代入
+//id="ul"を取得し、変数ulに格納する
 const ul = document.getElementById("ul");
-//ローカルストレージにあるkeyがtodosのオブジェクトをJSON形式からJSのオブジェクトに変換して、変数todosに代入
+//ローカルストレージにあるkeyがtodosのオブジェクトをJSON形式からJSのオブジェクトに変換して、変数todosに格納する
 const todos = JSON.parse(localStorage.getItem("todos"));
 
 //もしtodosに値があれば処理する
@@ -23,7 +23,7 @@ form.addEventListener("submit",function(event){
   add();
 });
 
-//ulにliをネスとする関数
+//ulにliをネストする関数
 function add(todo){
   let todoText = input.value;
 
@@ -31,26 +31,31 @@ function add(todo){
   if(todo){
     todoText = todo;
   }
+  //todoTextに値が入っていれば、処理する
   if(todoText){
+  //<li></li>を生成して、変数liに格納する
   const li = document.createElement("li");
+  //<li></li>の中にtodoTextを入れる
   li.innerText = todoText;
+  //liにclass="list-group-item"を付与する
   li.classList.add("list-group-item");
-
   //チェックボックス未チェックfontawesome適応用class
   li.classList.add("uncomp-style");
-
   //右クリック押下時の処理（削除）
   li.addEventListener("contextmenu",function(event){
     //右クリック押下時のデフォルトの動作（ページのリロード）をキャンセル
     event.preventDefault();
     //liの削除
     li.remove();
-    //
+    //ローカルストレージにliの情報を保存する関数"saveData()"を呼び出す
     saveData();
   })
 
-  ul.appendChild(li);
+  //ulにliをネストする
+ul.appendChild(li);
+  //input(テキストボックス)に入力されている値を空文字に設定する
   input.value="";
+  //ローカルストレージにliの情報を保存する関数(saveData())を呼び出す
   saveData();
   }
 }
