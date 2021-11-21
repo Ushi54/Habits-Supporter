@@ -19,7 +19,6 @@ if(todos){
 form.addEventListener("submit",function(event){
   ///エンターキー押下時のデフォルトの動作（ページのリロード）をキャンセル
   event.preventDefault();
-  //モーダル
   //add()関数を呼び出す
   add();
 });

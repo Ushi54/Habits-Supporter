@@ -171,7 +171,7 @@ training
   }
 }
 
-.training_menu, .meditation_menu, .yoga_menu, .front_end_menu, .reading_container{
+.training_menu, .meditation_menu, .yoga_menu, .front_end_menu, .reading_container, .blog_menu{
   width: 1228px;
   margin: 0 auto;
 
@@ -231,10 +231,10 @@ training
   }
 }
 
-//meditation
+//meditation,front_end,
 
-.meditation_menu, .front_end_menu{
-  .m_20min_btn, .create_portfolio_btn{
+.meditation_menu, .front_end_menu, .blog_menu{
+  .m_20min_btn, .create_portfolio_btn, .theme_btn{
     margin-right:0;
     left: 50%;
     position: relative;
