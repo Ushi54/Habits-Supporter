@@ -171,7 +171,7 @@ training
   }
 }
 
-.training_menu, .meditation_menu, .yoga_menu, .front_end_menu, .reading_container, .blog_menu{
+.content{
   width: 1228px;
   margin: 0 auto;
 
@@ -233,7 +233,7 @@ training
 
 //meditation,front_end,
 
-.meditation_menu, .front_end_menu, .blog_menu{
+.content{
   .m_20min_btn, .create_portfolio_btn, .theme_btn{
     margin-right:0;
     left: 50%;
@@ -246,6 +246,7 @@ training
 
 .reading_container{
   width: 800px;
+  margin: 0 auto;
   p{
     font-size: 30px;
   }
@@ -277,3 +278,4 @@ training
   font-size: 40px;
   width: 708px;
 }
+
