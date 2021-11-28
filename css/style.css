@@ -238,12 +238,39 @@ training
   height: 691px;
 }
 
-.content .m_20min_btn, .content .create_portfolio_btn, .content .theme_btn {
+.content .m_20min_btn,
+.content .create_portfolio_btn,
+.content .theme_btn {
   margin-right: 0;
   left: 50%;
   position: relative;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
+}
+
+.content .idea, .content .procedure {
+  border: 1px solid #000;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-shadow: 6px 6px 6px #ccc;
+          box-shadow: 6px 6px 6px #ccc;
+}
+
+.content .idea p, .content .procedure p {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .reading_container {
