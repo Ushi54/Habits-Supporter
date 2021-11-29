@@ -249,7 +249,7 @@ training
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    margin: 0;
+    margin: 200px 0 0 0;
     padding: 0;
     position: relative;
     box-shadow: 6px 6px 6px #ccc;
@@ -264,7 +264,12 @@ training
       left: 50%;
       transform: translate(-50%,-50%);
     }
-
+  }
+  .idea{
+    margin-left: 180px;
+  }
+  .procedure{
+    margin-left: 465px;
   }
 }
 
