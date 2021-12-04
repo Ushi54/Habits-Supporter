@@ -243,7 +243,8 @@ training
   }
 
   //createappのスタイル
-  .idea ,.procedure{
+  #idea ,#procedure{
+    z-index: 1;
     border: 1px solid #000;
     display: inline-block;
     width: 200px;
@@ -265,10 +266,10 @@ training
       transform: translate(-50%,-50%);
     }
   }
-  .idea{
+  #idea{
     margin-left: 180px;
   }
-  .procedure{
+  #procedure{
     margin-left: 465px;
   }
 }
@@ -312,4 +313,41 @@ training
   border-bottom: 1px solid #707070;
   font-size: 40px;
   width: 708px;
+}
+
+//frongend
+.hint-wrapper{
+  z-index: 2;
+  width:1000px;
+  height:850;
+  margin-left: 120px;
+  background-color:aqua;
+  position: relative;
+  top: -400px;
+  transition: 2s;
+  #hint-card1,#hint-card2,#hint-card3,#hint-card4{
+    position: absolute;
+    display: none;
+    transition: 1s;
+  }
+  .hint-card-display{
+    display: block!important;
+    transition: 3s;
+  }
+  #hint-card1{
+    top:0;
+    left:0;
+  }
+  #hint-card2{
+    top:0;
+    right:0;
+  }
+  #hint-card3{
+    top:400px;
+    left:0;
+  }
+  #hint-card4{
+    top: 400px;
+    right:0;
+  }
 }
