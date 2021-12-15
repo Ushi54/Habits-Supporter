@@ -248,21 +248,21 @@ training
           transform: translate(-50%);
 }
 
-.content #idea, .content #procedure {
+.content #idea {
   z-index: 1;
   border: 1px solid #000;
   display: inline-block;
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  margin: 200px 0 0 0;
+  margin: 200px 0 0 514px;
   padding: 0;
   position: relative;
   -webkit-box-shadow: 6px 6px 6px #ccc;
           box-shadow: 6px 6px 6px #ccc;
 }
 
-.content #idea p, .content #procedure p {
+.content #idea p {
   font-size: 20px;
   text-align: center;
   margin: 0;
@@ -272,14 +272,6 @@ training
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-}
-
-.content #idea {
-  margin-left: 180px;
-}
-
-.content #procedure {
-  margin-left: 465px;
 }
 
 .reading_container {
@@ -358,35 +350,5 @@ training
 .idea-hint-wrapper #hint-card4 {
   top: 400px;
   right: 0;
-}
-
-.create-hint-wrapper {
-  z-index: 2;
-  width: 1000px;
-  height: 850;
-  margin-left: 120px;
-  background-color: aqua;
-  position: relative;
-  top: -400px;
-  -webkit-transition: 2s;
-  transition: 2s;
-}
-
-.create-hint-wrapper #hint-card5 {
-  position: absolute;
-  display: none;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.create-hint-wrapper .hint-card-display {
-  display: block !important;
-  -webkit-transition: 3s;
-  transition: 3s;
-}
-
-.create-hint-wrapper #hint-card5 {
-  top: 0;
-  left: 670px;
 }
 /*# sourceMappingURL=style.css.map */
