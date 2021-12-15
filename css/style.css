@@ -300,6 +300,22 @@ training
   margin-right: 0.5em;
 }
 
+.reading_container #input::-webkit-input-placeholder {
+  opacity: 50%;
+}
+
+.reading_container #input:-ms-input-placeholder {
+  opacity: 50%;
+}
+
+.reading_container #input::-ms-input-placeholder {
+  opacity: 50%;
+}
+
+.reading_container #input::placeholder {
+  opacity: 50%;
+}
+
 .form-control {
   border: none;
   border-bottom: 1px solid #707070;

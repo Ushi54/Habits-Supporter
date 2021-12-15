@@ -300,6 +300,10 @@ training
       }
     }
   }
+
+  #input::placeholder{
+    opacity: 50%;
+  }
 }
 
 .form-control {
