@@ -316,7 +316,7 @@ training
 }
 
 //frongend
-.hint-wrapper{
+.idea-hint-wrapper{
   z-index: 2;
   width:1000px;
   height:850;
@@ -349,5 +349,29 @@ training
   #hint-card4{
     top: 400px;
     right:0;
+  }
+}
+
+.create-hint-wrapper{
+  z-index: 2;
+  width:1000px;
+  height:850;
+  margin-left: 120px;
+  background-color:aqua;
+  position: relative;
+  top: -400px;
+  transition: 2s;
+  #hint-card5{
+    position: absolute;
+    display: none;
+    transition: 1s;
+  }
+  .hint-card-display{
+    display: block!important;
+    transition: 3s;
+  }
+  #hint-card5{
+    top:0;
+    left:670px;
   }
 }
